@@ -16,6 +16,6 @@ audio.volume = 0.5;
 }
 
 var audio = document.getElementById('bgSong');
-audio.src='audio/VotreMusique.mp3';
+audio.src='audio/goofy.mp3';
 audio.load();
 audio.play();
