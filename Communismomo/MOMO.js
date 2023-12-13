@@ -10,7 +10,7 @@ x = parseInt(y/100*nbmusic,10) + 1; // ici on tire une musique au sort
 if (x == (1))
 {
 	midi="musiques/goofy.mp3";
-	midi_title="Belle musique de printemps !";
+	midi_title="Only in OHIO !";
 }
 
 if (x == (2))
