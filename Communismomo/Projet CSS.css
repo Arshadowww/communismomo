@@ -75,10 +75,11 @@ footer {
 
 .navbar a:hover {
     background-color: #7e0500;
-    color: yellow;
+    color: yellow; /* Correction de la couleur au survol */
 }
 
 /* Enlever les puces des éléments de la liste */
 .navbar, .navbar ul {
     list-style-type: none;
 }
+
