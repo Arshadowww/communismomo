@@ -74,8 +74,8 @@ footer {
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #7e0500;
+    color: jaune;
 }
 
 /* Enlever les puces des éléments de la liste */
