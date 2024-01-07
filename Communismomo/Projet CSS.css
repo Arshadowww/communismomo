@@ -59,21 +59,26 @@ footer {
     bottom: 0;
     width: 100%;
 }
- .navbar {
-            overflow: hidden;
-            background-color: #800000;
-        }
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
 
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-        .navbar a:hover {
-            background-color: #800000;
-            color: yellow;
-        }
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Enlever les puces des éléments de la liste */
+.navbar, .navbar ul {
+    list-style-type: none;
+}
