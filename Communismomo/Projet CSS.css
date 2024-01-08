@@ -58,15 +58,21 @@ input, textarea {
 
 /* Styles pour la barre de navigation */
 .navbar {
-    background-color: #cc0000;
     overflow: hidden;
+    background-color: #333; /* Couleur de fond de la barre de navigation */
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: #fff;
+    color: #f2f2f2; /* Couleur du texte des liens */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: background-color 0.3s; /* Transition pour l'effet de changement de couleur */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Couleur de fond au survol */
+    color: yellow; /* Changement de couleur du texte au survol */
 }
