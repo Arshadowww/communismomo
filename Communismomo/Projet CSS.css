@@ -60,6 +60,8 @@ input, textarea {
 .navbar {
     overflow: hidden;
     background-color: #333; /* Couleur de fond de la barre de navigation */
+    display: flex;
+    justify-content: space-between; /* Espacement automatique des éléments */
 }
 
 .navbar a {
@@ -75,4 +77,8 @@ input, textarea {
 .navbar a:hover {
     background-color: #ddd; /* Couleur de fond au survol */
     color: #333; /* Changement de couleur du texte au survol */
+}
+
+.ml-auto {
+    margin-left: auto; /* Déplace les éléments vers la droite de la barre de navigation */
 }
