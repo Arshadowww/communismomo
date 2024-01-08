@@ -55,10 +55,6 @@ footer {
     text-align: center;
     padding: 1em;
 	
-  body, html {
-            height: 100%;
-            margin: 0;
-        }
           .parallax {
             /* Création de l'effet de parallaxe */
             background-image: url('momophoto.jpg'); /* Remplacez par votre image animée */
