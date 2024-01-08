@@ -1,9 +1,25 @@
-body {
+/* Styles pour l'effet de parallaxe */
+body, html {
+    height: 100%;
+    margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;
     color: #333;
-    margin: 0;
     padding: 0;
+}
+
+.parallax {
+    background-image: url('votre-image-animée.jpg'); /* Remplacez par votre image animée */
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    padding: 150px 20px; /* Ajustez la marge intérieure pour le positionnement vertical */
 }
 
 header {
@@ -12,20 +28,6 @@ header {
     text-align: center;
     padding: 1em;
 }
-.parallax {
-           /* Création de l'effet de parallaxe */
-            background-image: url('fond.png'); /* Remplacez par votre image animée */
-            height: 100%;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
- .content {
-            /* Styles pour le contenu au-dessus de l'arrière-plan animé */
-            text-align: center;
-            padding: 150px 20px; /* Ajustez la marge intérieure pour le positionnement vertical */
-        }
 
 h1 {
     margin: 0;
@@ -37,7 +39,7 @@ section {
 
 h2 {
     color: #cc0000;
-	margin: 0;
+    margin: 0;
 }
 
 form {
@@ -48,23 +50,3 @@ form {
 }
 
 input, textarea {
-    margin-bottom: 10px;
-    padding: 8px;
-}
-
-button {
-    background-color: #cc0000;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #990000;
-}
-
-footer {
-    background-color: #cc0000;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
