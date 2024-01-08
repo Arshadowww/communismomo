@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;
-    color: #333;
+    color: #000; /* Couleur du texte en noir */
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,6 @@ header {
 h1 {
     margin: 0;
 }
-
 
 section {
     margin: 20px;
@@ -54,48 +53,4 @@ footer {
     background-color: #cc0000;
     color: #fff;
     text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #cc0000;
-    text-align: center; /* Centrer le texte dans la barre de navigation */
-}
-.navbar a {
-    float: right;
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background-color: #7e0500;
-    color: yellow; 
-}
-
-.navbar b {
-    float: middle;
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-}
-
-/* Enlever les puces des éléments de la liste */
-.navbar, .navbar ul {
-    list-style-type: none;
-}
-
+    padding: 1
