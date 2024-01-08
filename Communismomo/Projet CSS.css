@@ -79,6 +79,15 @@ footer {
     color: yellow; 
 }
 
+.navbar b {
+    float: middle;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 /* Enlever les puces des éléments de la liste */
 .navbar, .navbar ul {
     list-style-type: none;
