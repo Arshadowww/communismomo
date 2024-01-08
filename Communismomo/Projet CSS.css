@@ -14,15 +14,6 @@ body {
     background-attachment: fixed;
 }
 
-.parallax {
-    background-image: url('fond.png'); /* Remplacez par votre image animée */
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .content {
     text-align: center;
     padding: 150px 20px; /* Ajustez la marge intérieure pour le positionnement vertical */
