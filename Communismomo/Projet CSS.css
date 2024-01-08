@@ -54,3 +54,23 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
+	
+  body, html {
+            height: 100%;
+            margin: 0;
+        }
+          .parallax {
+            /* Création de l'effet de parallaxe */
+            background-image: url('momophoto.jpg'); /* Remplacez par votre image animée */
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .content {
+            /* Styles pour le contenu au-dessus de l'arrière-plan animé */
+            text-align: center;
+            padding: 150px 20px; /* Ajustez la marge intérieure pour le positionnement vertical */
+        }
