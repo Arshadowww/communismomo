@@ -8,14 +8,8 @@ body, html {
     padding: 0;
 }
 
-body {
-    background-image: url('discord.png');
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .parallax {
-    background-image: url('momodo.jpg'); /* Remplacez par votre image animée */
+    background-image: url('discord.png'); /* Remplacez par votre image animée */
     height: 100%;
     background-attachment: fixed;
     background-position: center;
