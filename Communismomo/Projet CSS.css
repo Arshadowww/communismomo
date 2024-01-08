@@ -74,5 +74,5 @@ input, textarea {
 
 .navbar a:hover {
     background-color: #ddd; /* Couleur de fond au survol */
-    color: yellow; /* Changement de couleur du texte au survol */
+    color: #333; /* Changement de couleur du texte au survol */
 }
