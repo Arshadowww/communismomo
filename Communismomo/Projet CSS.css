@@ -14,6 +14,13 @@ body {
     background-attachment: fixed;
 }
 
+.title {
+    text-align: center;
+    color: #cc0000;
+    background-color: #0074D9; /* Couleur bleue */
+    padding: 20px; /* Ajustez la marge intérieure selon vos préférences */
+}
+
 .parallax {
     background-image: url('votre-image-animée.jpg'); /* Remplacez par votre image animée */
     height: 100%;
