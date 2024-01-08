@@ -70,10 +70,3 @@ input, textarea {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-.title {
-    text-align: center;
-    color: #cc0000;
-    background-color: #0074D9; /* Couleur bleue */
-    padding: 20px; /* Ajustez la marge intérieure selon vos préférences */
-}
