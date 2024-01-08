@@ -59,11 +59,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .navbar {
     overflow: hidden;
     background-color: #cc0000;
+    text-align: center; /* Centrer le texte dans la barre de navigation */
 }
-
 .navbar a {
     float: right;
     display: block;
